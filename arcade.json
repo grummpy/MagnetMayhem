@@ -1,0 +1,17 @@
+{
+  "name": "Magnet Mayhem",
+  "id": "magnetmayhem",
+  "icon": "assets/icon.jpg",
+  "cover": "assets/cover.jpg",
+  "launch": {
+    "mac": "./launch-mac.command",
+    "windows": "launch-windows.bat",
+    "linux": "./launch-linux.sh",
+    "web": "index.html"
+  },
+  "players": 4,
+  "port": 8815,
+  "minPlayers": 1,
+  "input": ["keyboard", "gamepad"],
+  "version": "1.0.0"
+}
